@@ -15,3 +15,5 @@ print(f"ID final:   {id(a)}") # El ID CAMBIA. El objeto '1000' sigue igual en me
 # Caso C: La excepción de los objetos pequeños (Interning)
 m, n = 10, 10
 print(m is n) # True. Python pre-asigna enteros del -5 al 256 para optimizar.
+
+# El curso es bastante interesante
