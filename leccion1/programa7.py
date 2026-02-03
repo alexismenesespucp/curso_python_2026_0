@@ -2,6 +2,7 @@ from collections import namedtuple
 from dataclasses import dataclass
 
 # 1. Namedtuple: Inmutable, ligera como una tupla, legible como un objeto
+
 Punto = namedtuple('Punto', ['x', 'y', 'z'])
 p1 = Punto(10, 20, 30)
 # p1.x = 50  # Lanza AttributeError: Inmutabilidad garantizada

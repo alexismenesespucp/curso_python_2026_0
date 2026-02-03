@@ -10,7 +10,7 @@ for i in range(10):
 # 2. Eficiencia comparada (Algoritmos de búsqueda)
 # En un BFS (Búsqueda en anchura), el uso de pop(0) en listas destruye el performance.
 # Usemos popleft() en deque para garantizar O(1).
-queue = deque(["nodo_raiz"])
+queue = deque(["nodo_raiz","nodo_raiz2"])
 while queue:
     actual = queue.popleft() # Eficiente
     # ... procesar hijos ...

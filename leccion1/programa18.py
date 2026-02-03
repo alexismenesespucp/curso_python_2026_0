@@ -15,5 +15,13 @@ def algoritmo_complejo(n):
     # Simulación de carga algorítmica
     return sum(i**2 for i in range(n))
 
+@medir_tiempo
+def contar_hasta(n):
+    for i in range(n):
+        i*1
+    return True
+    
+contar_hasta(3000000)
+
 # Al llamar a la función, realmente ejecutamos el wrapper
 algoritmo_complejo(1_000_000)
