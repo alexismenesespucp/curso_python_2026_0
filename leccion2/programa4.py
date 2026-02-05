@@ -13,5 +13,6 @@ class Sensor:
 
 # Prueba en consola
 s = Sensor("Voltaje", 220)
+print(s)
 print(str(s))  # Para reportes
 print(repr(s)) # Para debugging técnico/logs

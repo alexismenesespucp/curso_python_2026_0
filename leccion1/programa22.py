@@ -1,6 +1,8 @@
+import sys
 class ErrorDeValidacion(Exception):
     """Clase base para errores de nuestro sistema."""
-    pass
+    sys.exit(1)
+    #pass
 
 class SensorFueraDeRangoError(ErrorDeValidacion):
     def __init__(self, sensor_id, valor, limite):
@@ -18,3 +20,4 @@ try:
 except SensorFueraDeRangoError as e:
     # Loguear el error y tomar acción correctiva
     print(f"ALERTA: {e}")
+print("Continuar")

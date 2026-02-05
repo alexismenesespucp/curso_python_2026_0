@@ -1,4 +1,5 @@
 # Demostración de la jerarquía y nonlocal
+contador = 10
 def cronometro():
     contador = 0  # Ámbito Enclosing
     

@@ -19,4 +19,4 @@ class Motor:
 # Uso profesional
 m = Motor(20)
 print(m.temperatura)  # Acceso como atributo, pero llama al método
-m.temperatura = 90    # Validación transparente
+m.temperatura = 130    # Validación transparente

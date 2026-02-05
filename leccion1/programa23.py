@@ -15,5 +15,6 @@ def procesar_archivo(ruta):
             f.close()
             print("Recurso liberado.")
 
+procesar_archivo('programa1.py')
 # Nota: Veremos que 'with' (Context Managers) automatiza esto, 
 # pero es vital entender el flujo base.
