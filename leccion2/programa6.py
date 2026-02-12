@@ -20,3 +20,5 @@ db = DatasetPro(100)
 db[5] = "Muestra_A" # Llama a __setitem__
 item = db[5]         # Llama a __getitem__
 print(f"Total elementos: {len(db)}") # Llama a __len__
+
+print(db)

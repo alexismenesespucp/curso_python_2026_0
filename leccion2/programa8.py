@@ -20,3 +20,6 @@ class Conexion(JSONSerializerMixin):
 # Ahora ambas clases tienen .to_json() sin compartir una base compleja
 n = Nodo(1, "Server_01")
 print(n.to_json())
+
+con = Conexion("127.0.0.1", "192.168.1.1",10)
+print(con.to_json())

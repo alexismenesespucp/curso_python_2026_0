@@ -3,7 +3,7 @@ class Robot:
     def comando_parar(self): print("Parando...")
 
 bot = Robot()
-orden_remota = "moverse" # Esto vendría de un socket o API
+orden_remota = "parar" # Esto vendría de un socket o API
 
 # Construimos el nombre del método dinámicamente
 nombre_metodo = f"comando_{orden_remota}"

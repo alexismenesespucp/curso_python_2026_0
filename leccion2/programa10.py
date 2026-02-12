@@ -17,6 +17,6 @@ class GestionDeRecurso:
 try:
     with GestionDeRecurso("BaseDeDatos_Produccion") as db:
         print("Ejecutando consultas pesadas...")
-        # raise RuntimeError("Fallo de red") # Simulación de error
+        raise RuntimeError("Fallo de red") # Simulación de error
 except Exception:
     pass

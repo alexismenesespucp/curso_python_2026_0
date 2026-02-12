@@ -15,5 +15,5 @@ class AlgoritmoValido(metaclass=MetaValidadora):
     def ejecutar(self):
         pass
 
-# class AlgoritmoInvalido(metaclass=MetaValidadora):
+#class AlgoritmoInvalido(metaclass=MetaValidadora):
 #     pass # Esto lanzaría un TypeError al momento de IMPORTAR el script

@@ -15,7 +15,7 @@ def algoritmo_complejo(n):
     return sum(i**2 for i in range(n))
 
 # Al llamar a la función, realmente ejecutamos el wrapper
-algoritmo_complejo(1_000_000)
+#algoritmo_complejo(1_000_000)
 def registrar_metodos(cls):
     """Envuelve todos los métodos de la clase para loguear su llamada."""
     for nombre, valor in vars(cls).items():
@@ -34,4 +34,4 @@ class CalculoCientifico:
 
 # Ahora, cualquier instancia de esta clase tendrá logueo automático en sus métodos
 calc = CalculoCientifico()
-calc.simulacion_a()
+calc.simulacion_b()

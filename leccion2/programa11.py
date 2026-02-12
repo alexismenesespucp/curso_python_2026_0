@@ -20,4 +20,4 @@ def reintento(veces, espera):
 def conectar_servidor():
     raise ConnectionError("Servidor no responde")
 
-# conectar_servidor() # Ejecutará la lógica de reintento automáticamente
+conectar_servidor() # Ejecutará la lógica de reintento automáticamente
